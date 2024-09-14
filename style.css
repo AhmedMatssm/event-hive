@@ -291,10 +291,15 @@ label{
 
  /* Small devices (576px and down) */
 @media (max-width: 576px) { 
+    .logo{
+        display: flex;
+        align-items: center;
+    }
     .logo h1{
-        font-size: 25px;
+        font-size: 20px;
         font-weight: 400;
-        line-height: 40.76px;
+        line-height: 35px;
+        margin: 0;
         text-align: left;
     }
     .title{
