@@ -1,0 +1,730 @@
+
+body{
+    background-color: #F8F8FA;
+}
+
+/* HEADER STYLE */
+
+.header{
+    margin: 10px 0;
+}
+
+.logo h1{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48.76px;
+    text-align: left;
+}
+.logo h1 span{
+    color: #4090EF;
+}
+
+.btnConnexion{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    color: #131315;
+}
+
+.btnInscription{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: center;
+
+}
+.btn-primary{
+    background-color: #4090EF;
+    border: none;
+}
+
+/* SECTION1 STYLE */
+
+.image1{
+    padding: 0;
+    border-radius: 10px;
+}
+
+.title{
+    width: 677px;
+    height: 156px;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h2{
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 78.02px;
+    text-align: center;
+    color: #fff;
+}
+
+.filter{
+    width: 1000px;
+    height: 144px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #10107B;
+    z-index: 10;
+}
+
+.listSelect{
+    gap: 5px;
+}
+
+.select1,.select2,.select3{
+    width: 290px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+select{
+    cursor: pointer;
+}
+
+label{
+    width: 290px;
+    height: 20px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    color: #F8F8FA;
+}
+
+.btnRecherche{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 5px;
+    background-color: #4090EF;
+}
+
+.btn-outline-primary{
+    outline: none;
+    border: none;
+}
+
+/* SECTION2 STYLE */
+
+.section2{
+    margin-top: 150px;
+}
+
+.cardFilter .subTitle h3, .cardFilter .subTitle .subTitleSpan{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.88px;
+    text-align: left;
+}
+
+.cardFilter .subTitle .subTitleSpan{
+    color: #4090EF;
+    margin-left: 5px;
+}
+
+.cardListSelect{
+    gap: 20px;
+}
+
+.cardSelect1, .cardSelect2, .cardSelect3{
+    width: 184px;
+    height: 48px;
+    border-radius: 5px;
+}
+
+.cardSelectUpdateColor{
+    background-color: #687C940D;
+}
+
+.officialCard{
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 5px;
+}
+
+.officialCard .theCard{
+    width: 360px;
+    height: 380px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0px -0.27px 2.75px 0px #00000006;
+}
+
+.cardImage{
+    width: 340px;
+    height: 240px;
+    border-radius: 5px;
+}
+
+.imagetitle{
+    width: 65px;
+    height: 22px;
+    top: 20px;
+    left: 15px;
+    padding: 5px 10px;
+    gap: 10px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.imagetitle h4{
+    width: 45px;
+    height: 12px;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12.19px;
+    text-align: center;
+    color: #4090EF;
+}
+
+.bodyCard h5{
+    width: 347px;
+    height: 40px;
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    color: #000;
+}
+
+.bodyCard p{
+    width: 347px;
+    height: 15px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.63px;
+    text-align: left;
+    color: #4090EF;
+}
+
+.bodyCard span{
+    width: 347px;
+    height: 15px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.63px;
+    text-align: left;
+    color: #7E7E7E;
+}
+
+/* FOOTER STYLE */
+
+.footerr{
+    width: 100%;
+    height: 252px;
+    margin-top: 180px;
+    padding: 0 10px;
+    background-color: #10107B;
+}
+
+.footerImage{
+    width: 544.67px;
+    height: 303px;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -58.5%);
+}
+
+.bodyFooter{
+    padding: 0 50px;
+}
+
+.bodyFooter h6{
+    width: 650px;
+    height: 46px;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.88px;
+    text-align: left;
+    color: #F8F8FA;
+}
+
+.bodyFooter p{
+    width: 382px;
+    height: 44px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.94px;
+    text-align: left;
+    color: #F8F8FA;
+}
+
+.bodyFooter .btnFooter{
+    width: 302px;
+    height: 60px;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.94px;
+    text-align: center;
+}
+
+
+ /* Small devices (576px and down) */
+@media (max-width: 576px) { 
+    .logo h1{
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 40.76px;
+        text-align: left;
+    }
+    .title{
+        width: 400px;
+        height: 156px;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .title h2{
+        font-family: Montserrat;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 40.02px;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .filter{
+        width: 320px;
+        height: 160px;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+        padding: 20px 10px;
+        border-radius: 20px;
+        background-color: #10107B;
+        z-index: 10;
+    }
+    
+    .listSelect{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .select1,.select2,.select3{
+        width: 130px;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .btnRecherche{
+        position: absolute;
+        width: 120px;
+        height: 40px;
+        top: 70%;
+        left: 55%;
+        transform: translate(0%, 0%);
+        /* gap: 10px; */
+        border-radius: 5px;
+        background-color: #4090EF;
+    }
+
+    .d-none{
+        display: none !important;
+        margin: 0 10px;
+        font-size: 18px;
+        color: rgb(241, 241, 241);
+        font-weight: 600;
+    }
+
+    .cardFilter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .subTitle{
+        margin-bottom: 10px;
+    }
+
+    .officialCard{
+        padding-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerr{
+        width: 100%;
+        height: 550px;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .footerImage{
+        position: absolute !important;
+        width: 450px;
+        height: 280px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-100%);
+    }
+
+    .bodyFooter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .bodyFooter h6{
+        width: 400px;
+        height: 46px;
+        font-family: Montserrat;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 35px;
+        text-align: center;
+        color: #F8F8FA;
+    }
+
+    .bodyFooter p{
+        margin-top: 30px;
+        width: 300px;
+        height: 44px;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.94px;
+        text-align: center;
+        color: #F8F8FA;
+    }
+
+    .bodyFooter .btnFooter{
+        width: 302px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 768px) { 
+    .title{
+        width: 400px;
+        height: 156px;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .title h2{
+        font-family: Montserrat;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 50.02px;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .filter{
+        width: 490px;
+        height: 160px;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        padding: 20px 10px;
+        border-radius: 20px;
+        background-color: #10107B;
+        z-index: 10;
+    }
+    
+    .listSelect{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .select1,.select2,.select3{
+        width: 200px;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .btnRecherche{
+        position: absolute;
+        width: 200px;
+        height: 40px;
+        top: 70%;
+        left: 55%;
+        transform: translate(0%, 0%);
+        padding: 10px;
+        gap: 10px;
+        border-radius: 5px;
+        background-color: #4090EF;
+    }
+
+    .d-none{
+        display: block !important;
+        margin: 0 10px;
+        font-size: 18px;
+        color: rgb(241, 241, 241);
+        font-weight: 600;
+    }
+
+    .cardFilter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .subTitle{
+        margin-bottom: 10px;
+    }
+
+    .officialCard{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerr{
+        width: 100%;
+        height: 550px;
+        margin-top: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .footerImage{
+        position: static !important;
+        width: 544.67px;
+        height: 303px;
+        transform: translate(0);
+    }
+
+    .bodyFooter{
+        margin-top: 20px;
+    }
+
+    .bodyFooter p{
+        width: 550px;
+        height: 44px;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.94px;
+        text-align: left;
+        color: #F8F8FA;
+    }
+
+    .bodyFooter .btnFooter{
+        width: 302px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) { 
+    .title h2{
+        font-size: 44px;
+        line-height: 70px;
+    }
+
+    .filter{
+        width: 650px;
+        height: 135px;
+        padding: 20px;
+    }
+    
+    .listSelect{
+        gap: 20px;
+    }
+    
+    .select1,.select2,.select3{
+        width: 160px;
+        height: 70px;
+    }
+
+    .btnRecherche{
+        width: 70px;
+        height: 70px;
+        padding: 10px;
+        gap: 20px;
+        border-radius: 5px;
+        background-color: #4090EF;
+    }
+
+    .section2{
+        margin-top: 120px;
+    }
+
+    .cardFilter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .subTitle{
+        margin-bottom: 10px;
+    }
+
+    .officialCard{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerr{
+        width: 100%;
+        height: 550px;
+        margin-top: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .footerImage{
+        position: static !important;
+        width: 544.67px;
+        height: 303px;
+        transform: translate(0);
+    }
+
+    .bodyFooter{
+        margin-top: 20px;
+    }
+
+    .bodyFooter p{
+        width: 550px;
+        height: 44px;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.94px;
+        text-align: left;
+        color: #F8F8FA;
+    }
+
+    .bodyFooter .btnFooter{
+        width: 302px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .filter{
+        width: 850px;
+        height: 144px;
+        padding: 20px;
+    }
+    
+    .select1,.select2,.select3{
+        width: 200px;
+        height: 70px;
+    }
+
+    .cardFilter{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .cardListSelect{
+        gap: 10px;
+    }
+    
+    .cardSelect1, .cardSelect2, .cardSelect3{
+        width: 175px;
+        height: 48px;
+    }
+
+    .footerr{
+        width: 100%;
+        height: 550px;
+        margin-top: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .footerImage{
+        position: static !important;
+        width: 544.67px;
+        height: 303px;
+        transform: translate(0);
+    }
+
+    .bodyFooter{
+        margin-top: 20px;
+    }
+
+    .bodyFooter p{
+        width: 550px;
+        height: 44px;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.94px;
+        text-align: left;
+        color: #F8F8FA;
+    }
+
+    .bodyFooter .btnFooter{
+        width: 302px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}
+
