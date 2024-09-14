@@ -1,4 +1,8 @@
-
+html, body {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: #F8F8FA;
 }
@@ -164,7 +168,7 @@ label{
 }
 
 .officialCard .theCard{
-    width: 360px;
+    width: 350px;
     height: 380px;
     border-radius: 10px;
     background-color: #FFFFFF;
@@ -290,31 +294,35 @@ label{
 
 
  /* Small devices (576px and down) */
-@media (max-width: 576px) { 
+@media (max-width: 576px) {
+    label{
+        width: 140px;
+        height: 20px;
+    }
     .logo{
         display: flex;
         align-items: center;
     }
     .logo h1{
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
-        line-height: 35px;
+        line-height: 30px;
         margin: 0;
         text-align: left;
     }
     .title{
-        width: 400px;
+        width: 300px;
         height: 156px;
-        top: 45%;
+        top: 55%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
     .title h2{
         font-family: Montserrat;
         text-transform: uppercase;
-        font-size: 25px;
+        font-size: 20px;
         font-weight: 400;
-        line-height: 40.02px;
+        line-height: 30px;
         text-align: center;
         color: #fff;
     }
@@ -394,8 +402,8 @@ label{
 
     .footerImage{
         position: absolute !important;
-        width: 450px;
-        height: 280px;
+        width: 370px;
+        height: 250px;
         top: 50%;
         left: 50%;
         transform: translate(-50%,-100%);
@@ -406,11 +414,12 @@ label{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-top: 20px;
+        margin: 20px 0 0 0;
+        padding: 0;
     }
 
     .bodyFooter h6{
-        width: 400px;
+        width: 300px;
         height: 46px;
         font-family: Montserrat;
         font-size: 25px;
@@ -445,6 +454,10 @@ label{
 
  /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 768px) { 
+    label{
+        width: 140px;
+        height: 20px;
+    }
     .title{
         width: 400px;
         height: 156px;
@@ -465,10 +478,12 @@ label{
     .filter{
         width: 490px;
         height: 160px;
+        display: flex;
+        flex-direction: column;
         top: 100%;
         left: 50%;
         transform: translate(-50%, -30%);
-        padding:10px;
+        padding:5px !important;
         border-radius: 20px;
         background-color: #10107B;
         z-index: 10;
@@ -476,12 +491,13 @@ label{
     
     .listSelect{
         display: flex;
+        align-items: start !important;
         flex-wrap: wrap;
         gap: 10px;
     }
     
     .select1,.select2,.select3{
-        width: 200px;
+        width: 210px;
         height: 70px;
         display: flex;
         flex-direction: column;
@@ -489,11 +505,11 @@ label{
     
     .btnRecherche{
         position: absolute;
-        width: 200px;
+        width: 210px !important;
         height: 38px;
         top: 70%;
-        left: 55%;
-        transform: translate(0%, -10%);
+        left: 50%;
+        transform: translate(10%, 0%);
         padding: 10px;
         gap: 10px;
         border-radius: 5px;
@@ -543,7 +559,8 @@ label{
     }
 
     .bodyFooter{
-        margin-top: 20px;
+        margin: 20px 0 0 0;
+        padding: 0;
     }
 
     .bodyFooter p{
@@ -570,6 +587,7 @@ label{
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 992px) { 
+
     .title h2{
         font-size: 44px;
         line-height: 70px;
