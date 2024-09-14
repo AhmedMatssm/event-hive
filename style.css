@@ -73,7 +73,7 @@ body{
     top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 10px;
+    padding: 10px 10px 30px 10px;
     border-radius: 20px;
     background-color: #10107B;
     z-index: 10;
@@ -108,8 +108,8 @@ label{
 
 .btnRecherche{
     width: 70px;
-    height: 70px;
-    padding: 10px;
+    height: 38px;
+    padding: 0 10px;
     gap: 10px;
     border-radius: 5px;
     background-color: #4090EF;
@@ -325,7 +325,7 @@ label{
         top: 100%;
         left: 50%;
         transform: translate(-50%, -20%);
-        padding: 20px 10px;
+        padding: 10px;
         border-radius: 20px;
         background-color: #10107B;
         z-index: 10;
@@ -347,10 +347,10 @@ label{
     .btnRecherche{
         position: absolute;
         width: 120px;
-        height: 40px;
+        height: 38px;
         top: 70%;
         left: 55%;
-        transform: translate(0%, 0%);
+        transform: translate(0%, -10%);
         /* gap: 10px; */
         border-radius: 5px;
         background-color: #4090EF;
@@ -468,7 +468,7 @@ label{
         top: 100%;
         left: 50%;
         transform: translate(-50%, -30%);
-        padding: 20px 10px;
+        padding:10px;
         border-radius: 20px;
         background-color: #10107B;
         z-index: 10;
@@ -490,10 +490,10 @@ label{
     .btnRecherche{
         position: absolute;
         width: 200px;
-        height: 40px;
+        height: 38px;
         top: 70%;
         left: 55%;
-        transform: translate(0%, 0%);
+        transform: translate(0%, -10%);
         padding: 10px;
         gap: 10px;
         border-radius: 5px;
@@ -576,6 +576,8 @@ label{
     }
 
     .filter{
+        display: flex;
+        align-items: center;
         width: 650px;
         height: 135px;
         padding: 20px;
@@ -592,8 +594,8 @@ label{
 
     .btnRecherche{
         width: 70px;
-        height: 70px;
-        padding: 10px;
+        height: 38px;
+        padding: 0 10px;
         gap: 20px;
         border-radius: 5px;
         background-color: #4090EF;
@@ -615,9 +617,9 @@ label{
     }
 
     .officialCard{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-around;
     }
 
     .footerr{
